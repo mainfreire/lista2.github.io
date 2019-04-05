@@ -1,0 +1,139 @@
+﻿<HTML>
+<HEAD>
+<meta charset="utf-8">
+
+<TITLE> Exercício 25 </TITLE>
+</HEAD>
+
+	<BODY>
+		<table align=center border=3 height=200 width=1200>
+<tr align=center>
+<td><font color="blue">Tag's</td> </font>
+<td><font color="red"> Descrição</td> </font>
+<td><font color="purple">Exemplos</td> </font>
+</tr>
+
+<tr align=center>
+<td> Align </td>
+<td> Indica se o conteúdo das células de uma linha deve estar alinhado horizontalmente à esquerda (ALIGN=left), à direita (ALIGN=right), ou centralizadas (ALIGN=center). Por defeito, o alinhamento horizontal é à esquerda das células, e centralizado para células de cabeçalho . </td>
+<td> <table border = 4 align=center>
+<caption>Stock de artigos em armazem</caption>
+<tr>
+<th>Produto</th><th>Porto</th><th>Braga</th><th>Vila Real</th><th>TOTAL</th>
+</tr>
+<tr align=center>
+<td>Artigo A</td><td>20</td><td>40</td><td>10</td><td>70</td>
+</tr>
+<tr align=left>
+<td>Artigo B</td><td>10</td><td>50</td><td>30</td><td>90</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr align=center>
+<td> Valign </td>
+<td> Indica o alinhamento vertical dentro das células de uma linha. Pode ser superior (VALIGN=top), inferior (VALIGN=bottom), ou centralizado (VALIGN=middle). Por defeito, o alinhamento vertical das células é centralizado. </td>
+<td> <table border = 4 Width=90% CELLSPACING=6 CELLPADDING=7>
+<caption>Stock de artigos em armazem</caption>
+<tr>
+<th>Produto</th><th>Porto</th><th>Braga</th><th>Vila Real</th><th>TOTAL</th>
+</tr>
+<tr align=center valign=top>
+<td>Artigo AA</td><td>20</td><td>40</td><td>10</td><td>70</td>
+</tr>
+<tr align=center valign=bottom>
+<td>Artigo BB</td><td>10</td><td>50</td><td>30</td><td>90</td>
+</tr>
+</table>
+</td>
+</tr>
+
+<tr align=center>
+<td> Cellspancing  </td>
+<td> Define o espaço entre as células, ou seja, a largura das linhas de grade (as bordas que envolvem as células). Especificado em pixels.  </td>
+<td> <table cellspacing="8" border="4">
+<caption>Stock de artigos em armazem</caption>
+<tbody><tr>
+<th>Produto</th><th>Porto</th><th>Braga</th><th>Vila Real</th><th>TOTAL</th>
+</tr>
+<tr>
+<td>Artigo A</td><td>20</td><td>40</td><td>10</td><td>70</td>
+</tr>
+<tr>
+<td>Artigo B</td><td>10</td><td>50</td><td>30</td><td>90</td>
+</tr>
+</tbody></table> </td>
+</tr>
+
+<tr align=center>
+<td> Rowspan  </td>
+<td> Especifica o número de linhas a serem ocupados por uma célula. Utilizado para expandir uma célula verticalmente, também assume o valor por defeito de 1 em todas as células. A expansão ocorre para baixo, assim ao atribuir ROWSPAN =2 para uma célula, diminiu em 1 o número de células da linha de baixo.</td>
+<td> <table border = 4 Width=90% cellspacing=6 cellpadding=7>
+<tr>
+<th>Produto</th><th>Porto</th><th>Braga</th><th>Faro</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td>Artigo AA</td>
+<td>20</td>
+<TD ROWSPAN=2>ND</td>
+<td>10</td>
+<TD ROWSPAN=2>ND</td>
+</tr>
+<tr>
+<td>Artigo BB</td>
+<td>40</td>
+<td>50</td>
+</tr>
+</table> </td>
+</tr>
+
+<tr align=center>
+<td> Colspan </td>
+<td> Especifica o número de colunas de uma tabela a serem ocupados por uma célula. Utilizado portando para expandir uma célula horizontalmente, tempor defeito o valor 1 em todas as células. Se atribuirmos COLSPAN=2 a uma célula, ela ocupará o seu espaço e o espaço de mais uma célula para a direita, assim esta linha deverá possuir uma célula a menos do que as outras, já que uma de suas células "vale" por duas. </td>
+<td> <table border = 4 Width=90% cellspacing=6 cellpadding=7>
+<tr>
+<th>Produto</th><th>Porto</th><th>Braga</th><th>Faro</th>
+<th>TOTAL</th>
+</tr>
+<tr>
+<td>Artigo AA</td>
+<td>20</td>
+<TD COLSPAN=2>40</td>
+<td>10</td>
+</tr>
+<tr>
+<td>Artigo BB</td>
+<TD COLSPAN=3> 40</td>
+<td>50</td>
+</tr>
+</table> </td>
+</tr>
+
+<tr align=center>
+<td> Width </td>
+<td> Especifica a largura da tabela, que pode ser definida em pixels ou como sendo uma percentagem da largura da janela. Caso não seja especificado o atributo WIDTH, o próprio browser encarrega-se de determinar a largura mais adequada.</td>
+<td> <table width="90%" border="4">
+<caption>Stock de artigos em armazem</caption>
+<tbody><tr>
+<th>Produto</th><th>Porto</th><th>Braga</th><th>Vila Real</th><th>TOTAL</th>
+</tr>
+<tr>
+<td>Artigo A</td><td>20</td><td>40</td><td>10</td><td>70</td>
+</tr>
+<tr>
+<td>Artigo B</td><td>10</td><td>50</td><td>30</td><td>90</td>
+</tr>
+</tbody></table> </td>
+
+</tr>
+
+
+</table>
+<br/>
+<p align="center">
+ <a href="Menu.html"> Voltar ao Menu </a> </p>
+		
+	</BODY>
+</HTML>
